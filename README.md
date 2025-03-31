@@ -25,6 +25,9 @@ Um conversor simples e elegante de Reais para Dólares desenvolvido durante a Im
 ![tela1 conversormoedas](https://github.com/user-attachments/assets/b71b847c-6232-438e-95d2-18309ca5caec)
 ![tela 2 conversormoedas](https://github.com/user-attachments/assets/ac2fd3da-18ad-457d-a2fa-ab63e787e20c)
 
+---
+![tela1 mobile conversormoedas ](https://github.com/user-attachments/assets/2a275fd4-e797-4282-9cd4-facf58a2fac8)
+![tela2 mobile conversormoedas](https://github.com/user-attachments/assets/2f684483-d713-48aa-bf0d-c57d73911cad)
 
 
 ## ⚙️ Como Usar
