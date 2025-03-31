@@ -42,13 +42,13 @@ cd Conversor-RD && start index.html
 ---
 3. **Fluxo de uso**
 
--**Clique em "Bora converter!" 🖱️**
+- **Clique em "Bora converter!" 🖱️**
 
--Digite o valor em Reais 💵
+- **Digite o valor em Reais 💵**
 
--Veja o resultado formatado em Dólares 💰
+- **Veja o resultado formatado em Dólares 💰**
 
--Pressione ESC ou clique fora para fechar 🚪
+- **Pressione ESC ou clique fora para fechar 🚪**
 
 ---
 **📄 Licença**
