@@ -1,0 +1,150 @@
+/* Global Styles */
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Logo Styles */
+  .logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    max-width: 100px;
+    width: auto;
+  }
+  
+  /* Container with the background image */
+  .container {
+    background: url('https://img.freepik.com/vetores-gratis/fundo-de-conceito-de-icones-de-moeda-global-digital_1017-17455.jpg') no-repeat center center/cover;
+    flex: 1;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    min-height: calc(100vh - 80px); 
+    z-index: 1;
+  }
+  
+  /* Content div for text and button */
+  .content {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 8px;
+  }
+  
+  .content h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #ff1b7b;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1ABC9C;
+  }
+  
+  /* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  .modal-content {
+    background-color: #1a1a1a;
+    margin: 15% auto;
+    padding: 25px;
+    border: 1px solid #ff1b7b;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .close {
+    color: #aaa;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: #ff1b7b;
+  }
+  
+  /* Input Styles */
+  #valorInput {
+    width: 95%;
+    padding: 12px;
+    margin: 15px 0;
+    background: #333;
+    border: 1px solid #444;
+    color: white;
+    font-size: 1.1em;
+    border-radius: 5px;
+  }
+  
+  .resultado-container {
+    background-color: #333;
+    padding: 12px;
+    border-radius: 5px;
+    margin: 15px 0;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #resultado {
+    color: #1ABC9C;
+    font-weight: bold;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: #ff4444;
+    display: none;
+    margin-top: 10px;
+  }
+  
+  /* Footer Styles */
+  footer {
+  text-align: center;
+  padding: 15px;
+  background: rgba(0, 0, 0, 0.95);
+  color: #ff1b7b;
+  margin-top: auto; 
+  position: relative;
+  z-index: 2; 
+  border-top: 2px solid #ff1b7b;
+  font-size: 0.9em;
+  box-shadow: 0 -5px 15px rgba(0,0,0,0.5);
+  }
+  

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logomoeda.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Moedas</title>
+</head>
+<body>
+    
+    <img src="https://img.freepik.com/vetores-gratis/fundo-de-conceito-de-icones-de-moeda-global-digital_1017-17455.jpg" alt="Logo" class="logo">
+  
+    <div class="container">
+      <div class="content">
+        <h2>Domine o câmbio: Reais vs Dólares 💹 </h2>
+        <p>Conversão instantânea com taxa atualizada</p>
+        <button onclick="conversor()">Bora converter! 💰</button>
+      </div>
+    </div>
+
+    <!-- Modal de conversão -->
+    <div id="conversorModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h3>Converter Reais para Dólar</h3>
+          <input type="text" id="valorInput" placeholder="Ex: 1000,00" inputmode="decimal"> 
+          <button onclick="converterValor()">Converter</button>
+          <div class="resultado-container">
+            <span id="resultado"></span>
+          </div>
+          <div class="error-message">❌ Valor inválido! Use apenas números</div>
+        </div>
+      </div>
+<footer>
+Alura - Imersão DEV - 2025
+</footer>
+  
+
+<script src="script.js"></script>
+</body>
+</html>
