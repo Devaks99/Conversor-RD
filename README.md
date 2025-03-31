@@ -35,11 +35,12 @@ Um conversor simples e elegante de Reais para Dólares desenvolvido durante a Im
    Abra o projeto
 ---
 2. **bash**
-Copy: 
+Copy:
+
 cd Conversor-RD && start index.html
 
 ---
-3. **Fluxo de uso:**
+3. **Fluxo de uso**
 
 -Clique em "Bora converter!" 🖱️
 -Digite o valor em Reais 💵
