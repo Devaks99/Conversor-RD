@@ -27,7 +27,8 @@ Um conversor simples e elegante de Reais para Dólares desenvolvido durante a Im
 
 ---
 ![tela1 mobile conversormoedas ](https://github.com/user-attachments/assets/2a275fd4-e797-4282-9cd4-facf58a2fac8)
-![tela2 mobile conversormoedas](https://github.com/user-attachments/assets/2f684483-d713-48aa-bf0d-c57d73911cad)
+![tela2 mobile conversormoedas](https://github.com/user-attachments/assets/649f0129-5d36-4a89-9398-a7e7dd836c7f)
+
 
 
 ## ⚙️ Como Usar
