@@ -42,7 +42,7 @@ cd Conversor-RD && start index.html
 ---
 3. **Fluxo de uso**
 
--Clique em "Bora converter!" 🖱️
+-**Clique em "Bora converter!" 🖱️**
 
 -Digite o valor em Reais 💵
 
