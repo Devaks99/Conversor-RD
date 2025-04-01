@@ -59,7 +59,7 @@ cd Conversor-RD && start index.html
 **📄 Licença**
 Este projeto está sob licença MIT - veja o arquivo LICENSE para detalhes.
 
-Desenvolvido com ❤️ por [Ana Karla] | 
+🚀 Desenvolvido com dedicação por [Ana](https://github.com/Devaks99)! 😃
 - Alura - Imersão DEV 2025
   
 - Ícones por Freepik! 
