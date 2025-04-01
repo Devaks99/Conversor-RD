@@ -148,3 +148,87 @@ body {
   box-shadow: 0 -5px 15px rgba(0,0,0,0.5);
   }
   
+  /* RESPONSIVIDADE GERAL */
+@media (max-width: 768px) {
+    .content {
+      width: 85%;
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 1.5em;
+    }
+  
+    button {
+      font-size: 1em;
+      padding: 12px 25px;
+    }
+  
+    .logo {
+      max-width: 100px;
+      top: 10px;
+      right: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+  
+    .modal-content {
+      width: 85%;
+      margin: 60% auto;
+      padding: 15px;
+    }
+  
+    #valorInput {
+      font-size: 16px;
+      padding: 10px;
+    }
+  
+    footer {
+      font-size: 0.8em;
+      padding: 10px;
+    }
+  
+    .resultado-container {
+      font-size: 1.1em;
+    }
+  }
+  
+  /* AJUSTES ESPECÍFICOS PARA MOBILE */
+  @media (max-width: 360px) {
+    h2 {
+      font-size: 1.3em;
+    }
+  
+    button {
+      width: 100%;
+    }
+  
+    .modal-content h3 {
+      font-size: 1.1em;
+    }
+  
+    .error-message {
+      font-size: 0.9em;
+    }
+  }
+  
+  /* ORIENTAÇÃO LANDSCAPE */
+  @media (max-height: 500px) and (orientation: landscape) {
+    .container {
+      min-height: auto;
+      padding: 30px 0;
+    }
+  
+    .modal-content {
+      margin: 5% auto;
+    }
+  }
+  
+  /* MELHORIAS DE TOUCH */
+  button, input {
+    touch-action: manipulation;
+  }
